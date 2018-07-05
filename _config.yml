@@ -1,6 +1,6 @@
 url: http://quinnel.github.io
 baseurl:
-
+remote_theme: Quinnel/quinnel.git.io
 # Site Settings
 title: Timeline
 description: "Timeline is multipurpose, single page Jekyll theme that includes a timeline section."
