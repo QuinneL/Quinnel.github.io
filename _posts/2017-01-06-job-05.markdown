@@ -1,0 +1,8 @@
+---
+layout: null
+title: Cornell Policy Review (April 2018 - Jun 2018)
+subtitle:
+image: "img/timeline/5.JPG"
+---
+I fixed some design problems for CPR's website which is hosted on wordpress. <br/>
+[Cornell Policy Review](http://www.cornellpolicyreview.com/)
