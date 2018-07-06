@@ -2,6 +2,6 @@
 layout: null
 title: Cornell (Aug 2017 - Present)
 subtitle:
-image: "img/timeline/2.JPG"
+image: "img/timeline/2.jpg"
 ---
 At Cornell, I studied Computer Science and minored in business. I have recieved Dean's List every semester and I am an Irwin and Joan Jacobs Scholar.
