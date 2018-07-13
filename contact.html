@@ -16,9 +16,22 @@ social:
 
 Feel free to send me an email or check out my links~!
 
-<form action="https://formspree.io/helenliu555@gmail.com"
-      method="POST">
-    <input type="email" name="email" placeholder="Your email"> <br/>
-  <textarea name="message" placeholder="Your message"></textarea><br/>
-  <button type="submit">Send</button>
-</form>
+  <section>
+    <form method="POST" action="https://formspree.io/helenliu555@gmail.com">
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" />
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="3"></textarea>
+      </div>
+      <ul class="actions">
+        <li><input type="submit" value="Send Message" /></li>
+      </ul>
+    </form>
+  </section>

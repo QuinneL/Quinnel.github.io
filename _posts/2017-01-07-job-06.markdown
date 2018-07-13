@@ -1,0 +1,9 @@
+---
+layout: null
+title: WearWorks (Jun 2018 - Present)
+subtitle:
+image: ""
+---
+I worked as a software engineer intern at WearWorks, working on app dev and an alexa skill.
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Visiting <a href="https://twitter.com/WearWorksInc?ref_src=twsrc%5Etfw">@WearWorksInc</a> Helping <a href="https://twitter.com/hashtag/blind?src=hash&amp;ref_src=twsrc%5Etfw">#blind</a> and visually impaired people navigate the world through <a href="https://twitter.com/hashtag/haptic?src=hash&amp;ref_src=twsrc%5Etfw">#haptic</a> feedback devi… <a href="https://t.co/H302IH9GOl">https://t.co/H302IH9GOl</a></p>&mdash; AWS Startups (@AWSstartups) <a href="https://twitter.com/AWSstartups/status/1017495930889596929?ref_src=twsrc%5Etfw">July 12, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
