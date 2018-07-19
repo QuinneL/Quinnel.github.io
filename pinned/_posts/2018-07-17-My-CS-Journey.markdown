@@ -7,7 +7,7 @@ img:
 thumbnail: 1.jpg
 alt: image-alt
 project-date: July 2018
-client: Start Bootstrap
+client:
 tags: blog computerscience life
 description: coming soon
 ---
