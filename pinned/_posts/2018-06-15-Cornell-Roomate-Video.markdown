@@ -1,6 +1,6 @@
 ---
-title: Cornell Roommate Video
-subtitle: Roommate tag
+title: Roommates
+subtitle: roommate tag video
 layout: post
 date: 2018-06-15
 img: 2.png
