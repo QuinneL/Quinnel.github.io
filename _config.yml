@@ -3,14 +3,29 @@ baseurl:
 host: 0.0.0.0
 port: 4000
 
-# Site Settings
+# Site settings
 title: Quinn Liu
+email: helenliu555@gmail.com
 description: "Personal page."
 keywords: "Computer science, website, web design, software engineer,"
-google-tracking-id:
 
-# Career Settings
-# Default career thumbnail image.
-career-img: "img/timeline/default.jpg"
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/quinn.liu.9404
+  - title: linkedin
+    url: https://www.linkedin.com/in/quinn-liu-38b052156/
+  - title: github
+    url: http://github.com/quinnel
+  - title: instagram
+    url: https://www.instagram.com/liu.quinn/
+    
 
-exclude: ["Rakefile", "LICENSE", "readme.md"]
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty

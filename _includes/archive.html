@@ -1,0 +1,93 @@
+<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="{{site.url}}">{{site.title}}</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="{{site.url}}">Main Page</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header style = "background-image: url('{{site.url}}/img/archive-header.jpg')">
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading">Hello, World.</div>
+                <div class="intro-lead-in">Welcome to the blog archives.</div>
+                <a href="#Blog" class="btn btn-circle page-scroll">
+                    <i class="fa fa-angle-double-down animated"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <section id="Blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Archived Blogs</h2>
+                    <h3 class="section-subheading text-muted">Here are all the posts I've written. My current posts are on the <a href ="{{site.url}}">main page</a>.</h3>
+                </div>
+            </div>
+            <div class="row">
+            {% for post in site.categories.pinned %}
+                <div class="col-md-4 col-sm-6 blog-item"> 
+                    <a href="{{ post.url}}" class="blog-link">
+                        <div class="blog-hover">
+                            <div class="blog-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="{{site.url}}/img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="blog-caption">
+                        <h4>{{ post.title }}</h4>
+                        <p class="text-muted">{{ post.subtitle }}</p>
+                    </div>
+                </div> 
+            {% endfor %}
+            {% for post in site.categories.archive %}
+                <div class="col-md-4 col-sm-6 blog-item">
+                    <a href="#{{ post.url }}" class="blog-link">
+                        <div class="blog-hover">
+                            <div class="blog-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="{{site.url}}/img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="blog-caption">
+                        <h4>{{ post.title }}</h4>
+                        <p class="text-muted">{{ post.subtitle }}</p>
+                    </div>
+                </div> 
+            {% endfor %}
+            </div>
+        </div>
+    </section>
+
+<!--
+        {% for page in site.pages %}
+          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+        {% endfor %}
+ -->
+

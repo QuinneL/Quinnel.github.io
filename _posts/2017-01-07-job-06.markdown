@@ -1,8 +1,0 @@
----
-layout: null
-title: WearWorks (Jun 2018 - Present)
-subtitle:
-image: ""
----
-I worked as a software engineer intern at WearWorks, working on app dev and an alexa skill.
-[AWS startups video of WearWorks](https://twitter.com/AWSstartups/status/1017495930889596929), I appear at the end.

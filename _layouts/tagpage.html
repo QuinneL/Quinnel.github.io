@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+<body id="page-top" class="index">
+<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="{{site.url}}">{{site.title}}</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="{{site.url}}/archive">Archives</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="{{site.url}}">Main Page</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header style=" background-image:url('{{site.url}}/img/tag-header.jpg')">
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Welcome to the {{page.tag}} tag page</div>
+                <a href="#tag" class="btn btn-circle page-scroll">
+                    <i class="fa fa-angle-double-down animated"></i></a>
+            </div>
+        </div>
+    </header>
+    <div id="tag" class="container">
+            <div class="row">
+<h1 class="section-heading">Tag: {{ page.tag }}</h1>
+<ul>
+{% for post in site.tags[page.tag] %}
+  {% if post.lang %}
+  <li lang="{{post.lang}}">
+  {% else %}
+  <li>
+  {% endif %}
+  	<a href="{{ post.url }}">{{ post.title }}</a>
+    ({{ post.date | date_to_string }})<br>
+    {{post.subtitle}}: {{ post.description }}
+  	<!-- Tags: {{ post.tags | join: ", " }} -->
+  </li>
+{% endfor %}
+</ul>
+        </div>
+    </div>
+<hr>
+    {% include footer.html %}
+    {% include js.html %}
+    
+</body>
+    
+</html>

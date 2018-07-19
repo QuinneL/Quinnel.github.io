@@ -1,9 +1,0 @@
----
-layout: null
-title: HRC (Oct 2017 - May 2018)
-subtitle:
-image: "img/timeline/3.jpg"
----
-I worked for Human-Robot Collaboration & Companionship Research Group on a wordpress website and then on an opensource github website. Both are linked. <br/> 
-[WP website](https://sites.coecis.cornell.edu/hrc2/)<br/> 
-[Git website](hrc2.github.io)
