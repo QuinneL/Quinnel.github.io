@@ -3,8 +3,7 @@ title: My CS Journey
 subtitle: first blog post
 layout: post
 date: 2018-07-15
-img: 
-thumbnail: 1.jpg
+img: 1.jpg
 alt: image-alt
 project-date: July 2018
 client:

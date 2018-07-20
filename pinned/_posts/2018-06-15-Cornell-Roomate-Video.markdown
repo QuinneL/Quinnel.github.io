@@ -3,8 +3,7 @@ title: Roommates
 subtitle: roommate tag video
 layout: post
 date: 2018-06-15
-img: 2.png
-thumbnail: 2-thumbnail.png
+img: 2-thumbnail.png
 alt: image-alt
 project-date: Jan 2017
 client: 
