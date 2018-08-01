@@ -1,10 +1,9 @@
 ---
-title: Intern
+title: Intern Vlog
 subtitle: daily routine video
 layout: post
 date: 2018-07-15
 img: 3.png
-thumbnail: 3.png
 alt: image-alt
 project-date: July 2018
 client: 
