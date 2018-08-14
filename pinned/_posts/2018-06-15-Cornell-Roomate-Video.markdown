@@ -1,7 +1,7 @@
 ---
 title: Roommates
 subtitle: roommate tag video
-layout: post
+layout: post_layout
 date: 2018-06-15
 img: 2-thumbnail.png
 alt: image-alt

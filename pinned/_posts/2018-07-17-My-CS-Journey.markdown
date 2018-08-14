@@ -1,14 +1,14 @@
 ---
 title: My CS Journey
 subtitle: first blog post
-layout: post
+layout: post_layout
 date: 2018-07-15
 img: 1.jpg
 alt: image-alt
 project-date: July 2018
 client:
 tags: blog computerscience life
-description: coming soon
+description: my first ever post
 ---
 <html><head><meta content="text/html; charset=UTF-8" http-equiv="content-type"></head>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/f-dXfnjCx9s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

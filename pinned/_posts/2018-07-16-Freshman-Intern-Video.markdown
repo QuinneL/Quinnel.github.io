@@ -1,7 +1,7 @@
 ---
 title: Intern Vlog
 subtitle: daily routine video
-layout: post
+layout: post_layout
 date: 2018-07-15
 img: 3.png
 alt: image-alt
